@@ -19,7 +19,7 @@ export default function ChatHistory({ chatHistory, interimTranscript }: ChatHist
   return (
     <div 
       ref={chatContainerRef} 
-      className="glass-deep rounded-2xl shadow-lg h-96 p-5 overflow-y-auto space-y-5 scroll-smooth border border-gray-700 card-3d"
+      className="glass-deep rounded-2xl shadow-lg h-96 p-5 overflow-y-auto space-y-5 scroll-smooth border border-gray-700 card-3d scrollbar-hide"
     >
       {chatHistory.length === 0 && (
         <div className="flex flex-col items-center justify-center h-full">
